@@ -14,14 +14,14 @@
             </button>
             </div>
         </div>
-        <div className="header-bg">
+        {/* <div className="header-bg">
         <div className="container">
           <div className="header-text">
             <h1 className="header-title">Shop in style</h1>
             <p className="header-subtitle">With this shop homepage template</p>
           </div>
         </div>
-      </div>
+      </div> */}
         </div>
     );
     };

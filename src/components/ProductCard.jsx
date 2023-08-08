@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 
-const ProductionCard = ({ imageSrc, title, price, isSale }) => {
+const ProductionCard = ({ imageSrc, title, price, isSale, addToCart, removeFromCart }) => {
   const [isInCart, setIsInCart] = useState(false);
 
   const handleCartToggle = () => {
-    setIsInCart(!isInCart);
+    if (isInCart) {
+      removeFromCart(); // Call removeFromCart when removing from cart
+    } else {
+      addToCart(); // Call addToCart when adding to cart
+    }
+    setIsInCart(!isInCart); // Toggle the isInCart state
   };
 
   return (
-    <div className={`card h-100 ${isInCart ? "in-cart" : ""}`}>
-      {isSale && <div className="badge bg-dark text-white position-absolute">Sale</div>}
+    <div className={` ${isInCart ? "in-cart" : ""}`}>
       <img className="card-img-top" src={imageSrc} alt={title} />
       <div className="card-body p-4">
         <div className="text-center">

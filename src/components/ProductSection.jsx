@@ -1,30 +1,73 @@
 import React from "react";
 import ProductionCard from "./ProductCard";
+import "./Navbar"; // Import your CSS file for styling if needed
 
-const ProductionSection = () => {
+const ProductSection = ({ addToCart, removeFromCart }) => {
+  // Example product data
+  const products = [
+    {
+      id: 1,
+      image: "product1.jpg",
+      title: "Product 1",
+      price: "$20.00",
+      isSale: false,
+    },
+    {
+      id: 2,
+      image: "product2.jpg",
+      title: "Product 2",
+      price: "$30.00",
+      isSale: true,
+    },
+    {
+      id: 3,
+      image: "product3.jpg",
+      title: "Product 3",
+      price: "$40.00",
+      isSale: false,
+    },
+    {
+      id: 4,
+      image: "product4.jpg",
+      title: "Product 4",
+      price: "$50.00",
+      isSale: true,
+    },
+    {
+      id: 5,
+      image: "product5.jpg",
+      title: "Product 5",
+      price: "$60.00",
+      isSale: false,
+    },
+    {
+      id: 6,
+      image: "product6.jpg",
+      title: "Product 6",
+      price: "$70.00",
+      isSale: true,
+    }
+    
+    // Add more product objects as needed
+  ];
+
   return (
-    <section className="py-5">
-      <div className="container px-4 px-lg-5 mt-5">
-        <div className="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-          {/* You can map through your production data and create ProductionCard components */}
-          {/* Example data */}
-          {[
-            {
-              imageSrc: "https://dummyimage.com/450x300/dee2e6/6c757d.jpg",
-              title: "Fancy Product",
-              price: "$40.00 - $80.00",
-              isSale: false,
-            },
-            // Add more data items here
-          ].map((product, index) => (
-            <div key={index} className="col mb-5">
-              <ProductionCard {...product} />
-            </div>
-          ))}
-        </div>
+    <div className="product-section">
+      <div className="product-row">
+        {products.map((product) => (
+          <ProductionCard
+            key={product.id}
+            imageSrc={product.image}
+            title={product.title}
+            price={product.price}
+            isSale={product.isSale}
+            addToCart={addToCart} // Pass the addToCart function as a prop
+            removeFromCart={removeFromCart} // Pass the removeFromCart function as a prop
+          />
+        ))}
       </div>
-    </section>
+    </div>
   );
 };
 
-export default ProductionSection;
+export default ProductSection;

@@ -87,3 +87,64 @@
   .card-footer button {
     width: 100%; /* Make the buttons full width */
   }
+
+  .product-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* To wrap items onto multiple lines if needed */
+    justify-content: center; /* To horizontally center the items */
+    gap: 20px; /* Gap between each card */
+  }
+
+  /* ProductCard.css */
+.production-card {
+  width: 250px; /* Set the width of the card */
+  margin: 15px; /* Add margin around each card */
+  border: 1px solid #ddd; /* Add a border for styling */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  overflow: hidden; /* Hide any overflowing content */
+
+  /* Optional: Add box shadow for a card-like effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.production-card .card {
+  position: relative; /* For positioning the Sale badge */
+}
+
+.production-card .badge {
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.production-card .card-body {
+  padding: 1rem; /* Add padding to the card body */
+}
+
+.production-card .product-info {
+  text-align: center; /* Center the product info */
+}
+
+.production-card .product-name {
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* Add margin below the product name */
+}
+
+.production-card .product-price {
+  color: #777; /* Set color for the price */
+}
+
+.production-card .card-footer {
+  padding: 1rem; /* Add padding to the card footer */
+  border-top: none; /* Remove top border from footer */
+  background-color: transparent; /* Set background color to transparent */
+}
+
+.production-card .btn {
+  width: 100%; /* Set button width to 100% */
+}
+
+.production-card.in-cart {
+  background-color: #f7f7f7; /* Change background color when in cart */
+}
+  
