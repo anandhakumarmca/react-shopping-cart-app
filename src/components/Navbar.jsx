@@ -14,15 +14,15 @@
             </button>
             </div>
         </div>
-        {/* <div className="header-bg">
+        <div className="header-bg">
         <div className="container">
           <div className="header-text">
-            <h1 className="header-title">Shop in style</h1>
-            <p className="header-subtitle">With this shop homepage template</p>
+            <h1 className="header-title">Nila Comics Presents </h1>
+            <p className="header-subtitle">Ponniyin Selvan Comics Series</p>
           </div>
         </div>
-      </div> */}
-        </div>
+      </div>
+      </div>
     );
     };
 

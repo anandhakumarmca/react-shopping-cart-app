@@ -21,7 +21,6 @@ function App() {
     <div className="App">
       <Navbar cartItemCount={cartItemCount} />
       <ProductSection addToCart={addToCart} removeFromCart={removeFromCart} />
-      {/* Other content */}
     </div>
   );
 }

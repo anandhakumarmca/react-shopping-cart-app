@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import './ProductCard.css';
 
-const ProductionCard = ({ imageSrc, title, price, isSale, addToCart, removeFromCart }) => {
+const ProductCard = ({ imageSrc, title, price, isSale, addToCart, removeFromCart }) => {
   const [isInCart, setIsInCart] = useState(false);
 
   const handleCartToggle = () => {
@@ -13,7 +14,7 @@ const ProductionCard = ({ imageSrc, title, price, isSale, addToCart, removeFromC
   };
 
   return (
-    <div className={` ${isInCart ? "in-cart" : ""}`}>
+    <div className="product-card">
       <img className="card-img-top" src={imageSrc} alt={title} />
       <div className="card-body p-4">
         <div className="text-center">
@@ -38,4 +39,4 @@ const ProductionCard = ({ imageSrc, title, price, isSale, addToCart, removeFromC
   );
 };
 
-export default ProductionCard;
+export default ProductCard;
