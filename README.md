@@ -7,7 +7,7 @@ Welcome to My Shopping Cart App! This is a simple React application that allows 
 To run the application locally, follow these steps:
 
 1. Clone this repository: `https://github.com/anandhakumarmca/react-shopping-cart-app.git`
-2. Navigate to the project directory: `cd my-shopping-cart-app`
+2. Navigate to the project directory: `cd react-shopping-cart-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open your browser and go to: `http://localhost:3000`
