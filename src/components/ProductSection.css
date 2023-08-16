@@ -1,53 +1,59 @@
-/* Product section styling */
+/* Adjust the top and bottom margins of the product section */
 .product-section {
-    margin-top: 15rem;
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+/* Create a flex container for the product cards */
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+/* Styling for individual product cards */
+.production-card {
+  width: calc(33.33% - 1rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Media queries for responsive layout */
+  @media (max-width: 768px) {
+    width: calc(50% - 1rem);
   }
-  
-  .product-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1rem; /* Adjust the gap between product cards */
+
+  @media (max-width: 576px) {
+    width: 100%;
   }
-  
-  .production-card {
-    width: calc(33.33% - 1rem); /* Adjust card width as needed */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
-    @media (max-width: 768px) {
-        width: calc(50% - 1rem); /* Adjust card width for smaller screens */
-      }
-    
-      @media (max-width: 576px) {
-        width: 100%; /* Adjust card width for smallest screens */
-      }
+}
+
+/* Styling for product card images */
+.production-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+
+  /* Media query for image size on smaller screens */
+  @media (max-width: 768px) {
+    max-height: 150px;
   }
-  
-  .production-card img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-    @media (max-width: 768px) {
-        max-height: 150px; /* Adjust max-height for smaller screens */
-      }
-  }
-  
-  .production-card h5 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .production-card p {
-    font-size: 0.875rem;
-    color: #666;
-    margin-bottom: 0;
-  }
-  
-  
- 
+}
+
+/* Styling for product card title */
+.production-card h5 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for product card price */
+.production-card p {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0;
+}

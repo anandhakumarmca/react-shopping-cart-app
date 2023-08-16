@@ -1,0 +1,10 @@
+/* Styling for the footer */
+.footer {
+  background-color: #343a40; /* Background color of the footer */
+  color: #fff; /* Text color of the footer */
+  text-align: center; /* Center-align the content inside the footer */
+  padding: 1rem 0; /* Add padding at the top and bottom of the footer */
+  position: fixed; /* Position the footer as a fixed element */
+  bottom: 0; /* Place the footer at the bottom of the viewport */
+  width: 100%; /* Set the width of the footer to cover the entire viewport */
+}

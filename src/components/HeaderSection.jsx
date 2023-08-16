@@ -3,6 +3,7 @@ import "./HeaderSection.css"; // Import your CSS file
 
 const HeaderSection = () => {
   return (
+    //  Header section with background color, padding, and full width
     <header className="bg-dark py-5 header-fullwidth">
       <div className="container px-4 px-lg-5 my-5">
         <div className="text-center text-white">

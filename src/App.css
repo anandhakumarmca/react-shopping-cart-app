@@ -1,3 +1,4 @@
+/* Style for the root element of your app */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,16 +6,19 @@
   text-align: center;
 }
 
+/* Animation for the logo on the second link (if prefers-reduced-motion is not set) */
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
+/* Styling for cards */
 .card {
   padding: 2em;
 }
 
+/* Styling for text with 'read-the-docs' class */
 .read-the-docs {
   color: #888;
 }

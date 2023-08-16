@@ -1,103 +1,114 @@
+/* Navbar styles */
 .navbar {
-    background-color: white;
-    color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    height: 60px; /* Adjust the header height */
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%; /* Ensure the container takes the full height of the header */
-    padding: 0 20px; /* Adjust the padding values */
-  }
-  
-  .logo {
-    height: auto !important;
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: bold;
-  }
-  
-  .cart {
-    display: flex;
-    align-items: center;
-    margin-left: 10px; /* Add margin to align cart button and logo */
-  }
-  
-  .cart-button {
-    background-color: transparent;
-    border: 1px solid black;
-    cursor: pointer;
-    color: black;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    padding: 8px 12px;
-    border-radius: 4px;
-  }
-  
-  .cart i {
-    margin-right: 3px;
-  }
-  
-  .cart-name {
-    margin-right: 5px;
-  }
-  
-  .cart-count {
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-    padding: 2px 6px;
-    font-size: 12px;
-    margin-left: 5px;
-  }
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 60px;
+}
 
-  .header-bg {
-    background-color: #333;
-    color: #fff;
-    padding: 5rem 0;
-    display: flex; /* Use flexbox for centering */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    text-align: center;
-    height: 25% ; /* Ensure the header takes at least the viewport height */
-  }
-  
-  .header-title {
-    font-size: 3rem;
-    font-weight: bold;
+/* Container styles for navbar */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
 
-    @media (max-width: 576px) {
-        font-size: 1.75rem; /* Adjust font size for smaller screens */
-    }
-  }
-  
-  .header-subtitle {
-    font-size: 1.5rem;
-    @media (max-width: 576px) {
-      font-size: 1rem; /* Adjust font size for smaller screens */
-  }
-  }
+/* Logo styles */
+.logo {
+  height: auto !important;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+}
 
-  .card.in-cart {
-    border: 2px solid #f00; /* Highlight cards that are in the cart */
-  }
-  
-  /* Adjust button styles */
-  .card-footer button {
-    width: 100%; /* Make the buttons full width */
-  }
+/* Cart styles */
+.cart {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
 
-   .cart-button:hover {
-    background-color: black;
-    color: white;
+/* Cart button styles */
+.cart-button {
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+/* Cart icon styles */
+.cart i {
+  margin-right: 3px;
+}
+
+/* Cart name styles */
+.cart-name {
+  margin-right: 5px;
+}
+
+/* Cart count badge styles */
+.cart-count {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+/* Header section styles */
+.header-bg {
+  background-color: #333;
+  color: #fff;
+  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 25%;
+}
+
+/* Header title styles */
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+
+  @media (max-width: 576px) {
+    font-size: 1.75rem;
   }
-  
-  
+}
+
+/* Header subtitle styles */
+.header-subtitle {
+  font-size: 1.5rem;
+  @media (max-width: 576px) {
+    font-size: 1rem;
+  }
+}
+
+/* Card styles for items in cart */
+.card.in-cart {
+  border: 2px solid #f00;
+}
+
+/* Card footer button styles */
+.card-footer button {
+  width: 100%;
+}
+
+/* Cart button hover styles */
+.cart-button:hover {
+  background-color: black;
+  color: white;
+}
