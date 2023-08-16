@@ -6,7 +6,7 @@ Welcome to My Shopping Cart App! This is a simple React application that allows 
 
 To run the application locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/my-shopping-cart-app.git`
+1. Clone this repository: `https://github.com/anandhakumarmca/react-shopping-cart-app.git`
 2. Navigate to the project directory: `cd my-shopping-cart-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
@@ -43,6 +43,3 @@ Contributions are welcome! Here's how you can get involved:
 4. Push your changes to your forked repository: `git push origin feature/new-feature`
 5. Create a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
