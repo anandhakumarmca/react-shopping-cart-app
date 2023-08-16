@@ -52,5 +52,5 @@ Contributions are welcome! Here's how you can get involved:
 
 Check out the live demo of the app on Netlify:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/NETLIFY_SITE_ID_HERE/deploy-status)](https://app.netlify.com/sites/react-shopping-cart-sample/deploys)
+[![Netlify](https://www.netlify.com/img/global/badges/netlify-color-bg.svg)](https://react-shopping-cart-sample.netlify.app/)
 
