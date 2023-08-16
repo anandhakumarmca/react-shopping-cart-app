@@ -45,7 +45,7 @@ Contributions are welcome! Here's how you can get involved:
 
 Sample Output
 
-![Sample Output]([My Shopping Cart.png](https://github.com/anandhakumarmca/react-shopping-cart-app/blob/ec95084c7940489ac98a87eb55cd462d7da4fbea/My%20Shopping%20Cart.png)https://github.com/anandhakumarmca/react-shopping-cart-app/blob/ec95084c7940489ac98a87eb55cd462d7da4fbea/My%20Shopping%20Cart.png)
+![Sample Output](https://github.com/anandhakumarmca/react-shopping-cart-app/raw/ec95084c7940489ac98a87eb55cd462d7da4fbea/My%20Shopping%20Cart.png)
 
 Live Demo
 Check out the live demo of the app on Netlify: https://react-shopping-cart-sample.netlify.app/
