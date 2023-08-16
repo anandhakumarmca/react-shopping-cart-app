@@ -24,7 +24,7 @@ To run the application locally, follow these steps:
 - `public/`: Contains the HTML template and public assets.
 - `src/`: Contains the main source code.
   - `components/`: Contains React components.
-  - `styles/`: Contains CSS styles for the components.
+  - `components/`: Contains CSS styles for the components.
   - `App.js`: Main application component.
   - `index.js`: Entry point for React rendering.
 
