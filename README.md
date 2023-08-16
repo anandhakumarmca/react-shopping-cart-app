@@ -45,7 +45,7 @@ Contributions are welcome! Here's how you can get involved:
 
 Sample Output
 
-(/path/to/your/sample/output/My%20Shopping%20Cart.png)
+!(My Shopping Cart.png)
 
 Live Demo
 Check out the live demo of the app on Netlify: https://react-shopping-cart-sample.netlify.app/
