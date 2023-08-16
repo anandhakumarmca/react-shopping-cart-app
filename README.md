@@ -43,3 +43,8 @@ Contributions are welcome! Here's how you can get involved:
 4. Push your changes to your forked repository: `git push origin feature/new-feature`
 5. Create a pull request.
 
+Sample Output
+
+Live Demo
+Check out the live demo of the app on Netlify: https://react-shopping-cart-sample.netlify.app/
+
